@@ -80,6 +80,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/evan4/CLionProjects/Dominos/CBoard.cpp">
+			<Option target="Dominos"/>
+		</Unit>
+		<Unit filename="C:/Users/evan4/CLionProjects/Dominos/CBoard.h">
+			<Option target="Dominos"/>
+		</Unit>
+		<Unit filename="C:/Users/evan4/CLionProjects/Dominos/CDeck.cpp">
+			<Option target="Dominos"/>
+		</Unit>
+		<Unit filename="C:/Users/evan4/CLionProjects/Dominos/CDeck.h">
+			<Option target="Dominos"/>
+		</Unit>
+		<Unit filename="C:/Users/evan4/CLionProjects/Dominos/CDomino.cpp">
+			<Option target="Dominos"/>
+		</Unit>
+		<Unit filename="C:/Users/evan4/CLionProjects/Dominos/CDomino.h">
+			<Option target="Dominos"/>
+		</Unit>
+		<Unit filename="C:/Users/evan4/CLionProjects/Dominos/CPlayer.cpp">
+			<Option target="Dominos"/>
+		</Unit>
+		<Unit filename="C:/Users/evan4/CLionProjects/Dominos/CPlayer.h">
+			<Option target="Dominos"/>
+		</Unit>
 		<Unit filename="C:/Users/evan4/CLionProjects/Dominos/main.cpp">
 			<Option target="Dominos"/>
 		</Unit>

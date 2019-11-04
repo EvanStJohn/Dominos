@@ -3,4 +3,4 @@ project(Dominos)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Dominos main.cpp)
+add_executable(Dominos main.cpp CPlayer.cpp CPlayer.h CBoard.cpp CBoard.h CDomino.cpp CDomino.h CDeck.cpp CDeck.h)

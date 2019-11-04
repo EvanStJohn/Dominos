@@ -33,10 +33,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\evan4\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6817.32\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\evan4\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.7142.39\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\evan4\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6817.32\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = C:\Users\evan4\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.7142.39\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -69,19 +69,79 @@ CMakeFiles/Dominos.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dominos.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evan4\CLionProjects\Dominos\main.cpp -o CMakeFiles\Dominos.dir\main.cpp.s
 
+CMakeFiles/Dominos.dir/CPlayer.cpp.obj: CMakeFiles/Dominos.dir/flags.make
+CMakeFiles/Dominos.dir/CPlayer.cpp.obj: ../CPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evan4\CLionProjects\Dominos\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Dominos.dir/CPlayer.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Dominos.dir\CPlayer.cpp.obj -c C:\Users\evan4\CLionProjects\Dominos\CPlayer.cpp
+
+CMakeFiles/Dominos.dir/CPlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dominos.dir/CPlayer.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evan4\CLionProjects\Dominos\CPlayer.cpp > CMakeFiles\Dominos.dir\CPlayer.cpp.i
+
+CMakeFiles/Dominos.dir/CPlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dominos.dir/CPlayer.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evan4\CLionProjects\Dominos\CPlayer.cpp -o CMakeFiles\Dominos.dir\CPlayer.cpp.s
+
+CMakeFiles/Dominos.dir/CBoard.cpp.obj: CMakeFiles/Dominos.dir/flags.make
+CMakeFiles/Dominos.dir/CBoard.cpp.obj: ../CBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evan4\CLionProjects\Dominos\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Dominos.dir/CBoard.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Dominos.dir\CBoard.cpp.obj -c C:\Users\evan4\CLionProjects\Dominos\CBoard.cpp
+
+CMakeFiles/Dominos.dir/CBoard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dominos.dir/CBoard.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evan4\CLionProjects\Dominos\CBoard.cpp > CMakeFiles\Dominos.dir\CBoard.cpp.i
+
+CMakeFiles/Dominos.dir/CBoard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dominos.dir/CBoard.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evan4\CLionProjects\Dominos\CBoard.cpp -o CMakeFiles\Dominos.dir\CBoard.cpp.s
+
+CMakeFiles/Dominos.dir/CDomino.cpp.obj: CMakeFiles/Dominos.dir/flags.make
+CMakeFiles/Dominos.dir/CDomino.cpp.obj: ../CDomino.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evan4\CLionProjects\Dominos\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Dominos.dir/CDomino.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Dominos.dir\CDomino.cpp.obj -c C:\Users\evan4\CLionProjects\Dominos\CDomino.cpp
+
+CMakeFiles/Dominos.dir/CDomino.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dominos.dir/CDomino.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evan4\CLionProjects\Dominos\CDomino.cpp > CMakeFiles\Dominos.dir\CDomino.cpp.i
+
+CMakeFiles/Dominos.dir/CDomino.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dominos.dir/CDomino.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evan4\CLionProjects\Dominos\CDomino.cpp -o CMakeFiles\Dominos.dir\CDomino.cpp.s
+
+CMakeFiles/Dominos.dir/CDeck.cpp.obj: CMakeFiles/Dominos.dir/flags.make
+CMakeFiles/Dominos.dir/CDeck.cpp.obj: ../CDeck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evan4\CLionProjects\Dominos\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Dominos.dir/CDeck.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Dominos.dir\CDeck.cpp.obj -c C:\Users\evan4\CLionProjects\Dominos\CDeck.cpp
+
+CMakeFiles/Dominos.dir/CDeck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dominos.dir/CDeck.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evan4\CLionProjects\Dominos\CDeck.cpp > CMakeFiles\Dominos.dir\CDeck.cpp.i
+
+CMakeFiles/Dominos.dir/CDeck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dominos.dir/CDeck.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evan4\CLionProjects\Dominos\CDeck.cpp -o CMakeFiles\Dominos.dir\CDeck.cpp.s
+
 # Object files for target Dominos
 Dominos_OBJECTS = \
-"CMakeFiles/Dominos.dir/main.cpp.obj"
+"CMakeFiles/Dominos.dir/main.cpp.obj" \
+"CMakeFiles/Dominos.dir/CPlayer.cpp.obj" \
+"CMakeFiles/Dominos.dir/CBoard.cpp.obj" \
+"CMakeFiles/Dominos.dir/CDomino.cpp.obj" \
+"CMakeFiles/Dominos.dir/CDeck.cpp.obj"
 
 # External object files for target Dominos
 Dominos_EXTERNAL_OBJECTS =
 
 Dominos.exe: CMakeFiles/Dominos.dir/main.cpp.obj
+Dominos.exe: CMakeFiles/Dominos.dir/CPlayer.cpp.obj
+Dominos.exe: CMakeFiles/Dominos.dir/CBoard.cpp.obj
+Dominos.exe: CMakeFiles/Dominos.dir/CDomino.cpp.obj
+Dominos.exe: CMakeFiles/Dominos.dir/CDeck.cpp.obj
 Dominos.exe: CMakeFiles/Dominos.dir/build.make
 Dominos.exe: CMakeFiles/Dominos.dir/linklibs.rsp
 Dominos.exe: CMakeFiles/Dominos.dir/objects1.rsp
 Dominos.exe: CMakeFiles/Dominos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\evan4\CLionProjects\Dominos\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Dominos.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\evan4\CLionProjects\Dominos\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Dominos.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Dominos.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

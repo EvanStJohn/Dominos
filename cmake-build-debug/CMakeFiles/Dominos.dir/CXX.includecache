@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/evan4/CLionProjects/Dominos/CDomino.cpp
+CDomino.h
+C:/Users/evan4/CLionProjects/Dominos/CDomino.h
+iostream
+-
+
+C:/Users/evan4/CLionProjects/Dominos/CDomino.h
+
+C:/Users/evan4/CLionProjects/Dominos/main.cpp
+iostream
+-
+CDomino.h
+C:/Users/evan4/CLionProjects/Dominos/CDomino.h
+

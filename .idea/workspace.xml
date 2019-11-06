@@ -13,7 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="202115f9-dc28-4a61-98b4-d23528492b11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CBoard.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CBoard.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDeck.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CDeck.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDeck.h" beforeDir="false" afterPath="$PROJECT_DIR$/CDeck.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Dominos.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Dominos.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../midtermBoat" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -71,6 +74,7 @@
       <workItem from="1572977208630" duration="2699000" />
       <workItem from="1573063858162" duration="2476000" />
       <workItem from="1573072663187" duration="812000" />
+      <workItem from="1573078136833" duration="3724000" />
     </task>
     <servers />
   </component>

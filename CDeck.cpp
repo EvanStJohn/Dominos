@@ -34,7 +34,7 @@ int CDeck::size()
     return deck.size();
 }
 
-void CDeck::deal(CPlayer player)
+void CDeck::deal(CPlayer *player)
 {
     // need to figure out how to remove piece and deal to player
 }

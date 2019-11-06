@@ -6,12 +6,38 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/evan4/CLionProjects/Dominos/CDomino.cpp
+C:/Users/evan4/CLionProjects/Dominos/CBoard.h
+vector
+-
 CDomino.h
 C:/Users/evan4/CLionProjects/Dominos/CDomino.h
-iostream
+
+C:/Users/evan4/CLionProjects/Dominos/CDeck.cpp
+CDeck.h
+C:/Users/evan4/CLionProjects/Dominos/CDeck.h
+algorithm
+-
+vector
+-
+random
+-
+chrono
 -
 
+C:/Users/evan4/CLionProjects/Dominos/CDeck.h
+vector
+-
+CDomino.h
+C:/Users/evan4/CLionProjects/Dominos/CDomino.h
+CPlayer.h
+C:/Users/evan4/CLionProjects/Dominos/CPlayer.h
+
+C:/Users/evan4/CLionProjects/Dominos/CDomino.h
+
+C:/Users/evan4/CLionProjects/Dominos/CPlayer.h
+vector
+-
+CDomino.h
 C:/Users/evan4/CLionProjects/Dominos/CDomino.h
 
 C:/Users/evan4/CLionProjects/Dominos/main.cpp
@@ -19,4 +45,8 @@ iostream
 -
 CDomino.h
 C:/Users/evan4/CLionProjects/Dominos/CDomino.h
+CBoard.h
+C:/Users/evan4/CLionProjects/Dominos/CBoard.h
+CDeck.h
+C:/Users/evan4/CLionProjects/Dominos/CDeck.h
 

@@ -17,7 +17,7 @@ public:
     CDeck();
     void shuffle();
     int size();
-    void deal(CPlayer player);
+    void deal(CPlayer *player);
     std::vector<CDomino> getDeck();
 };
 

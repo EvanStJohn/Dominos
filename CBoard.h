@@ -6,8 +6,20 @@
 #define DOMINOS_CBOARD_H
 
 
-class CBoard {
+#include <vector>
+#include "CDomino.h"
 
+class CBoard {
+private:
+    int front;
+    int end;
+    std::vector<CDomino> train;
+public:
+    void playFirstTile(CDomino tile);
+    void playTile(CDomino tile, int location);
+    int getFront();
+    int getEnd();
+    void printBoard();
 };
 
 

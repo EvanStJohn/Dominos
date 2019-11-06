@@ -6,8 +6,18 @@
 #define DOMINOS_CDECK_H
 
 
-class CDeck {
+#include <vector>
+#include "CDomino.h"
+#include "CPlayer.h"
 
+class CDeck {
+private:
+    std::vector<CDomino> deck;
+public:
+    void shuffle();
+    int size();
+    void deal(CPlayer player);
+    std::vector<CDomino> getDeck();
 };
 
 

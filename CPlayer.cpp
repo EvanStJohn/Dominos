@@ -3,3 +3,62 @@
 //
 
 #include "CPlayer.h"
+#include <iostream>
+using namespace std;
+
+CPlayer::CPlayer(int idNum)
+{
+    id = idNum;
+}
+
+std::vector<CDomino> CPlayer::gethand()
+{
+    return hand;
+}
+
+int CPlayer::getId()
+{
+    return id;
+}
+
+void CPlayer::addPiece(CDomino domino)
+{
+    hand.push_back(domino);
+}
+
+void CPlayer::removePiece(CDomino domino)
+{
+    // need to figure out how to remove a vector element
+}
+
+bool CPlayer::isEmpty()
+{
+    if (hand.size() == 0)
+        return true;
+    else
+        return false;
+}
+
+bool CPlayer::hasPlay(int front, int end)
+{
+    for (int i = 0; i < hand.size(); i++)
+    {
+        if (front == hand.at(i).getLeft() || front == hand.at(i).getRight())
+            return true;
+
+        if (end == hand.at(i).getLeft() || end == hand.at(i).getRight())
+            return true;
+    }
+    return false;
+}
+
+void CPlayer::showHand()
+{
+    cout << "here is your hand" << endl;
+
+    for (int i = 0; i < hand.size(); i++)
+    {
+        hand.at(i).printDomino();
+    }
+    cout << endl;
+}

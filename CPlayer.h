@@ -14,6 +14,7 @@ private:
     int id;
     std::vector<CDomino> hand;
 public:
+    CPlayer(int idNum);
     std::vector<CDomino> gethand();
     int getId();
     void addPiece(CDomino domino);

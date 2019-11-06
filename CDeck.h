@@ -14,6 +14,7 @@ class CDeck {
 private:
     std::vector<CDomino> deck;
 public:
+    CDeck();
     void shuffle();
     int size();
     void deal(CPlayer player);

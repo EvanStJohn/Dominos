@@ -21,8 +21,6 @@ public:
     void result();
 };
 
-
-
 void CGame::API(int startHandSize)
 {
     deck.shuffle();
@@ -80,7 +78,7 @@ void CGame::firstplay()
     board.playFirstTile(firstTile);
     board.printBoard();
     cout << endl;
-    p1.removePiece(firstTile); //needs to be changed maybe?
+    p1.removePiece(0);
 
     cout << "Player 2:" << endl;
     p2.showHand();
@@ -93,33 +91,31 @@ void CGame::play(CPlayer *player)
     vector<CDomino> hand = player->gethand();
     bool played = false;
 
-    for (int i = 0; i < hand.size(); i++)
-    {
+    for (int i = 0; i < hand.size(); i++) {
         CDomino tile = hand.at(i);
 
-        if (tile.getLeft() == board.getFront() || tile.getRight() == board.getFront())
-        {
+        if (tile.getLeft() == board.getFront() || tile.getRight() == board.getFront()) {
             tile.printDomino();
             cout << endl;
             board.playTile(tile, 1);
             board.printBoard();
             cout << endl;
-            player->removePiece(tile); // will not work
+            player->removePiece(i); // will not work
             played = true;
             break;
         }
 
-        if (tile.getLeft() == board.getEnd() || tile.getRight() == board.getEnd())
-        {
+        if (tile.getLeft() == board.getEnd() || tile.getRight() == board.getEnd()) {
             tile.printDomino();
             cout << endl;
             board.playTile(tile, 0);
             board.printBoard();
             cout << endl;
-            player->removePiece(tile); // will not work
+            player->removePiece(i); // will not work
             played = true;
             break;
         }
+    }
 
         if(!played)
         {
@@ -136,7 +132,7 @@ void CGame::play(CPlayer *player)
                 pass++;
             }
         }
-    }
+
 }
 
 void CGame::checkWinner()
@@ -156,15 +152,33 @@ int CGame::score(CPlayer loser)
 {
     vector<CDomino> hand = loser.gethand();
     int sum = 0;
-    // finish this class
+    for (int i = 0; i < hand.size(); i++)
+    {
+        sum += hand.at(i).getTotal();
+    }
+    return sum;
 }
 
 void CGame::result()
 {
-
+    if (winner == 1)
+    {
+        cout << "Player 1 wins the game with " << score(p2) << + " points" << endl;
+    }
+    else if (winner == 2)
+    {
+        cout << "Player 2 wins the game with " << score(p1) << + " points" << endl;
+    }
+    else
+    {
+        cout << "the game has ended in a tie" << endl;
+    }
 }
 
+
 int main() {
+    CGame game;
+    game.API(7);
 
     return 0;
 }

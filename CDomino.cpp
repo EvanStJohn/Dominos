@@ -22,6 +22,11 @@ int CDomino::getRight()
     return right;
 }
 
+int CDomino::getTotal()
+{
+    return left + right;
+}
+
 void CDomino::flip()
 {
     int num = right;
@@ -31,5 +36,5 @@ void CDomino::flip()
 
 void CDomino::printDomino()
 {
-    cout << "[" <<  left << " | " << right << "]" << endl;
+    cout << "[" <<  left << " | " << right << "]";
 }

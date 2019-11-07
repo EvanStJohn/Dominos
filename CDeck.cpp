@@ -36,7 +36,8 @@ int CDeck::size()
 
 void CDeck::deal(CPlayer *player)
 {
-    // need to figure out how to remove piece and deal to player
+    player->addPiece(deck.at(0));
+    deck.erase(deck.begin());
 }
 
 std::vector<CDomino> CDeck::getDeck()

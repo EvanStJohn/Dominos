@@ -14,7 +14,10 @@
     <list default="true" id="202115f9-dc28-4a61-98b4-d23528492b11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CDeck.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CDeck.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDeck.h" beforeDir="false" afterPath="$PROJECT_DIR$/CDeck.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDomino.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CDomino.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDomino.h" beforeDir="false" afterPath="$PROJECT_DIR$/CDomino.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPlayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CPlayer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPlayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/CPlayer.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Dominos.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Dominos.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -75,6 +78,7 @@
       <workItem from="1573063858162" duration="2476000" />
       <workItem from="1573072663187" duration="812000" />
       <workItem from="1573078136833" duration="3724000" />
+      <workItem from="1573095050371" duration="3743000" />
     </task>
     <servers />
   </component>

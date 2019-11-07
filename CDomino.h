@@ -13,6 +13,7 @@ public:
     CDomino(int l, int r);
     int getLeft();
     int getRight();
+    int getTotal();
     void flip();
     void printDomino();
 };

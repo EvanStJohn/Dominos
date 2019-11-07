@@ -6,6 +6,11 @@
 #include <iostream>
 using namespace std;
 
+CPlayer::CPlayer()
+{
+    id = NULL;
+}
+
 CPlayer::CPlayer(int idNum)
 {
     id = idNum;
@@ -26,9 +31,9 @@ void CPlayer::addPiece(CDomino domino)
     hand.push_back(domino);
 }
 
-void CPlayer::removePiece(CDomino domino)
+void CPlayer::removePiece(int domino)
 {
-    // need to figure out how to remove a vector element
+    hand.erase(hand.begin() + domino);
 }
 
 bool CPlayer::isEmpty()

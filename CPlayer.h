@@ -15,10 +15,11 @@ private:
     std::vector<CDomino> hand;
 public:
     CPlayer(int idNum);
+    CPlayer();
     std::vector<CDomino> gethand();
     int getId();
     void addPiece(CDomino domino);
-    void removePiece(CDomino domino);
+    void removePiece(int domino);
     bool isEmpty();
     bool hasPlay(int front, int end);
     void showHand(); // for debug purpose
